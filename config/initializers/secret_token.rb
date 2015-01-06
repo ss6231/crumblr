@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Crumblr::Application.config.secret_key_base = 'e4ff6bcb638f5cfd8f72ec53d0f93ca7fea4b90077f6d19c97ee5b3ea7850388cfb9bfe930441256a48bb33289fb6f8f15530b540c5321826be0d56d39d65a7e'
+Crumblr::Application.config.secret_key_base = '70d6960097c15ff4d92e4696180aed58001d5d0da863c450a2151c199a5329cf6bd95af7defa9a6828ff18f89233a3938d92d90382f26e0f1d93e5bb24eef142'
