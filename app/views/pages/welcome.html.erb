@@ -1,8 +1,8 @@
-<h1>Welcome</h1>
-<p>
-	This is the landing page for crumblr made using Ruby on Rails 
-</p>
-<p>
-	This page is just a placeholder 
+<% @posts.each do |post| %>
 
-</p>
+	<%= render 'posts/post', post: post %>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+<% end %>
